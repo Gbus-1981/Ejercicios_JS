@@ -29,6 +29,7 @@ Estar dentro del 70% más vulnerable del Registro Social de Hogares (RSH).
 
 ### 💻 Solución (RAMA: M4AE2-ABP2-JESUS_PEREZ-Problema_2)
 
+---
 
 ## Implementación
 La evaluación se implementa en una aplicación web interactiva que incluye:
