@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación de Subsidio de Arriendo</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Postulación al Subsidio de Arriendo</h1>
+    </header>
+    <div class="container">
+        <form id="formulario">
+            <label>Edad:
+                <input type="number" id="edad" required>
+            </label>
+
+            <label>Cédula vigente:
+                <select id="cedulaVigente">
+                <option value="true">Sí</option>
+                <option value="false">No</option>
+                </select>
+            </label>
+
+            <label>Tipo de cédula:
+                <select id="tipoCedula">
+                <option value="chilena">Chilena</option>
+                <option value="extranjero">Extranjero</option>
+                </select>
+            </label>
+
+            <label>Ahorro en UF:
+                <input type="number" step="0.1" id="ahorroUF" required>
+            </label>
+
+            <label>% Vulnerabilidad (RSH):
+                <input type="number" step="1" max="100" id="vulnerabilidad" required>
+            </label>
+
+            <button type="submit">Evaluar Postulación</button>
+        </form>
+
+    </div>
+    <div id="resultado"></div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
